@@ -1,0 +1,78 @@
+/*************** Reset ***************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** Grid ***************/
+
+.grid_1_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+/*************** Style ***************/
+.title {
+  color: black;
+  font-size: 4rem;
+  text-decoration: none;
+  font-family: monospace;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header {
+  position: sticky;
+  padding: 1rem 2rem;
+  padding: 20px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 60px;
+}
+
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+  font-family: monospace;
+  padding: 20px;
+  background-color: grey;
+  margin-top: 20px;
+}
+
+.color1 {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+}
+
+a {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: monospace;
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+}
