@@ -21,6 +21,67 @@ img {
 }
 
 /*************** Style ***************/
+.shop {
+  width: 250px;
+  height: 250px;
+  border: solid;
+  border-radius: 15%;
+  border-color: black;
+  font-size: 2rem;
+  font-family: Prompt;
+  text-align: center;
+  padding-top: 95px;
+}
+
+.shop1 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop2 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop3 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop4 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop5 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop6 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop7 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop8 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop9 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop10 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop11 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+.shop12 {
+  background-image: url("../placeholder.webp");
+  background-size: cover;
+}
+
 .title {
   color: black;
   font-size: 4rem;
@@ -28,21 +89,6 @@ img {
   font-family: monospace;
   text-align: center;
   padding-bottom: 20px;
-}
-
-header {
-  position: sticky;
-  padding: 1rem 2rem;
-  padding: 20px;
-  background-color: red;
-  margin-bottom: 20px;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 60px;
 }
 
 main {
