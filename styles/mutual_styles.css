@@ -51,3 +51,9 @@ footer {
 }
 
 /*************** Header ***************/
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 60px; }
