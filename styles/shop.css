@@ -16,7 +16,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 40px;
+  gap: 66px;
+  margin-bottom: 20px;
 }
 
 /*************** Style ***************/
@@ -47,16 +48,6 @@ header nav ul {
 main {
   max-width: 1200px;
   margin-inline: auto;
-}
-
-footer {
-  text-align: center;
-  color: black;
-  font-size: 1.2rem;
-  font-family: monospace;
-  padding: 20px;
-  background-color: grey;
-  margin-top: 20px;
 }
 
 .color1 {

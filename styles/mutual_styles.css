@@ -1,0 +1,53 @@
+/*************** Reset ***************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** Grid ***************/
+
+.footer_flex {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/*************** Style ***************/
+
+/*************** Footer ***************/
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: Prompt;
+  padding: 45px 20px 20px 20px;
+  margin-top: 20px;
+  color: #f0f9ff;
+  background-color: #252525;
+}
+
+.footertekst {
+  text-align: left;
+}
+
+.iconsize {
+  width: 15%;
+}
+
+.flexicons {
+  display: flex;
+  gap: 40px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+/*************** Header ***************/
