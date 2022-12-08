@@ -4,6 +4,15 @@ font-family: 'Prompt', sans-serif;
 
 form{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 2rem;
+}
+
+textarea{
+    resize: none;
+}
+
+.form_felt {
+display: grid;
+gap: 3px;
 }

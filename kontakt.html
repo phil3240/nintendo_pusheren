@@ -25,40 +25,50 @@
 <main>
 <h1>Kontakt</h1>
 
-<h2>Åbningstider</h2>
+<div>
+    <h2>Åbningstider</h2>
 
-<ul>
-<li>Mandag: 13-18</li>
-<li>Tirsdag: 13-18</li>
-<li>Onsdag: 13-18</li>
-<li>Torsdag: 13-18 (nye varer)</li>
-<li>Fredag: 13-18</li>
-<li>Lørdag: 11-16</li>
-<li>Søndag: LUKKET</li>
-</ul>
-<div class="kontform">
+    <ul>
+        <li>Mandag: 13-18</li>
+        <li>Tirsdag: 13-18</li>
+        <li>Onsdag: 13-18</li>
+        <li>Torsdag: 13-18 (nye varer)</li>
+        <li>Fredag: 13-18</li>
+        <li>Lørdag: 11-16</li>
+        <li>Søndag: LUKKET</li>
+    </ul>
+</div>
+
+
     <h2>Kontaktformular</h2>
     <form>
-        <label>Navn</label>
-        <input type="text">
+        <div class="form_felt">
+            <label>Navn</label>
+            <input type="text" placeholder="fx Anders Jensen">
+        </div>
+        <div class="form_felt">
+            <label>Email</label>
+            <input type="text" placeholder="fx Anders@gmail.com"> 
+        </div>
 
-        <label>Email</label>
-        <input type="text"> 
+        <div class="form_felt">
+            <label>Emne</label>
+            <input type="text">
+        </div>
 
-        <label>Emne</label>
-        <input type="text">
-
-        <label>Besked</label>
-        <input type="text">
-
+        <div class="form_felt">
+            <label> Besked
+            <textarea cols="30" rows="10" placeholder="skriv din besked her..."></textarea>
+            </label>
+        </div>
     </form>
-</div>
+
 <p></p>
 </main>
 
 
 <footer>
-  <div class="grid_1_1_1">
+  <div class="footer_flex">
     <div>
       <h4 class="footertekst">Butikken</h4>
       <br>
@@ -75,6 +85,11 @@
         Opkald: +45 60 57 12 82 <br>
         E-mail: kontakt@nintendopusheren.dk
       </p>
+      <div class="flexicons">
+        <img class="iconsize" src="some_icons/facebook_icon.svg" alt="facebook icon">
+        <img class="iconsize" src="some_icons/instagram_icon.svg" alt="instagram icon">
+        <img class="iconsize" src="some_icons/youtube_icon.svg" alt="youtube icon">
+      </div>
     </div>
     <div>
       <h4 class="footertekst">Åbningstider</h4>
@@ -91,6 +106,7 @@
   </div>
   <p>&#169; Nintendopusheren 2022</p>
 </footer>
+
 
 </body>
 </html>
