@@ -70,12 +70,13 @@ header nav ul {
   display: block;
   overflow-x: auto;
   text-align: right;
+  list-style-type: none;
 }
 
 /* Links */
 a {
   text-decoration: none;
-  list-style-type: none;
+
   color: #000000;
   font-family: prompt;
 }
