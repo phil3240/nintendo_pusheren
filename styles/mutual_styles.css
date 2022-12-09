@@ -70,13 +70,16 @@ header nav ul {
   display: block;
   overflow-x: auto;
   text-align: right;
+  list-style-type: none;
 }
 
 /* Links */
 a {
   text-decoration: none;
+
   color: #000000;
   font-family: prompt;
+  font-size: 25px;
 }
 a:hover {
   color: rgb(0, 0, 0);
