@@ -1,0 +1,39 @@
+/*************** Reset ***************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*************** Grid ***************/
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 66px;
+  margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: "joystix";
+  src: url("font/joystix_monospace-webfont.woff") format("woff");
+}
+
+main {
+  max-width: 1000px;
+  margin-inline: auto;
+  font-family: "joystix", monospace;
+}
+
+h1 {
+  font-size: 30px;
+}
+h2 {
+  margin-bottom: 20px;
+}
