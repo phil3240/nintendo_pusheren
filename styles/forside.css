@@ -19,6 +19,13 @@ img {
   gap: 66px;
   margin-bottom: 20px;
 }
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 66px;
+  margin-bottom: 20px;
+}
 
 @font-face {
   font-family: "joystix";
@@ -32,8 +39,16 @@ main {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 80px;
+  margin-bottom: 20px;
 }
 h2 {
   margin-bottom: 20px;
+}
+
+.press_start {
+  width: 200px;
+}
+p {
+  margin-bottom: 100px;
 }
