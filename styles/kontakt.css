@@ -1,17 +1,33 @@
-p {
-    font-family: 'Prompt', sans-serif;
-}
-
 main {
     max-width: 1000px;
     margin-inline: auto;
 }
+p {
+    font-family: 'Prompt', sans-serif;
+    margin-top: 20px;
+}
 
-/*---------- Grid ------------*/
+h1 {
+    margin-left: 20px;
+    font-family: Joystix;
+    font-size: 2rem;
+}
 
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
+h2 {
+    margin: 30px 0px 30px 20px;
+    font-size: 1.5rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.info {
+    padding: 10px;
+    margin: 20px 10px 10px 10px;
+    background-color: #101278;
+    color: white;
+    text-align: center;
 }
 
 
@@ -20,6 +36,7 @@ form{
     display: grid;
     gap: 2rem;
     width: 2rem;
+    margin: 20px 10px 10px 10px;
 }
 
 textarea{
@@ -29,4 +46,18 @@ textarea{
 .form_felt {
     display: grid;
     gap: 3px;
+}
+
+
+@media (min-width: 800px) {
+.grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+}
+
+.grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 }
