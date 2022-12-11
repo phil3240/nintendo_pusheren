@@ -85,3 +85,9 @@ a:hover {
   color: rgb(0, 0, 0);
   font-weight: 600;
 }
+/*************** Font ***************/
+
+@font-face {
+  font-family: "joystix";
+  src: url("../font/joystix_monospace-webfont.woff2") format("woff2");
+}
