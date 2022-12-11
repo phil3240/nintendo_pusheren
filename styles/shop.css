@@ -17,7 +17,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 66px;
-  margin-bottom: 20px;
+  margin-bottom: 65px;
 }
 
 /*************** Style ***************/
@@ -30,31 +30,31 @@ img {
   font-size: 2rem;
   font-family: Prompt;
   text-align: center;
-  padding-top: 95px;
+  padding-top: 243px;
 }
 
 .shop1 {
-  background-image: url("../placeholder.webp");
+  background-image: url("../grafik/playstation.svg");
   background-size: cover;
 }
 .shop2 {
-  background-image: url("../placeholder.webp");
+  background-image: url("../grafik/nintendo.svg");
   background-size: cover;
 }
 .shop3 {
-  background-image: url("../placeholder.webp");
+  background-image: url("../grafik/xbox.svg");
   background-size: cover;
 }
 .shop4 {
-  background-image: url("../placeholder.webp");
+  background-image: url("../placeholder_grafik/sega.png");
   background-size: cover;
 }
 .shop5 {
-  background-image: url("../placeholder.webp");
+  background-image: url("../placeholder_grafik/skylanders.png");
   background-size: cover;
 }
 .shop6 {
-  background-image: url("../placeholder.webp");
+  background-image: url("../placeholder_grafik/amiibo.png");
   background-size: cover;
 }
 .shop7 {
