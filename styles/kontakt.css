@@ -1,7 +1,21 @@
 p {
-font-family: 'Prompt', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
+main {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+/*---------- Grid ------------*/
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+
+
+/*---------- Formular --------- */
 form{
     display: grid;
     gap: 2rem;
@@ -13,6 +27,6 @@ textarea{
 }
 
 .form_felt {
-display: grid;
-gap: 3px;
+    display: grid;
+    gap: 3px;
 }
