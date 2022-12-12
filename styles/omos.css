@@ -32,9 +32,22 @@ video {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 70px;
   width: 50%;
 }
 
+h1 {
+  margin-left: 20px;
+  font-family: joystix;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 /************ Video knap ************/
 
 video {
@@ -67,4 +80,13 @@ video {
 .playing .video-player-button {
   background: #e6e6e6;
   color: #101278;
+}
+
+/******************* display ***************/
+
+.grid_galleri {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  gap: 5px;
 }
