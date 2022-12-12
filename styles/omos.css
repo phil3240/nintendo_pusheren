@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(163, 159, 159);
+  margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  width: 50%;
+}
+
+h1 {
+  margin-left: 20px;
+  font-family: joystix;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/************ Video knap ************/
+
+video {
+  width: 50%;
+  display: block;
+  opacity: 0.5;
+}
+
+.playing video {
+  opacity: 1;
+}
+
+.video-player-button {
+  background: #101278;
+  color: #e6e6e6;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.075rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
+}
+
+.playing .video-player-button {
+  background: #e6e6e6;
+  color: #101278;
+}
+
+/******************* display ***************/
+
+.grid_galleri {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  gap: 5px;
+}
