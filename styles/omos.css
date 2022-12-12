@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(163, 159, 159);
+  margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/************ Video knap ************/
+
+video {
+  width: 50%;
+  display: block;
+  opacity: 0.5;
+}
+
+.playing video {
+  opacity: 1;
+}
+
+.video-player-button {
+  background: #f97e72;
+  color: #000;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.075rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
+}
+
+.playing .video-player-button {
+  background: violet;
+}
