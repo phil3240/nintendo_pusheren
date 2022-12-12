@@ -1,67 +1,78 @@
 main {
-    max-width: 1000px;
-    margin-inline: auto;
+  max-width: 1000px;
+  margin-inline: auto;
 }
+
+.mario {
+  width: 30%;
+  margin: 50px;
+}
+
 p {
-    font-family: 'Prompt', sans-serif;
-    margin-top: 20px;
+  font-family: "Prompt", sans-serif;
+  margin-top: 20px;
 }
 
 h1 {
-    margin-left: 20px;
-    font-family: joystix;
-    font-size: 2rem;
+  margin-left: 20px;
+  font-family: joystix;
+  font-size: 2rem;
 }
 
 h2 {
-    margin: 30px 0px 30px 20px;
-    font-size: 1.5rem;
+  margin: 30px 0px 30px 20px;
+  font-size: 1.5rem;
 }
 
 ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 main ul li {
-    margin: 20px 10px 10px 20px;
+  margin: 20px 10px 10px 20px;
 }
 
 .info {
-    padding: 10px;
-    margin: 20px 10px 10px 10px;
-    background-color: #101278;
-    color: white;
-    text-align: center;
+  padding: 10px;
+  margin: 20px 10px 10px 10px;
+  background-color: #101278;
+  color: white;
+  text-align: center;
 }
-
 
 /*---------- Formular --------- */
-form{
-    display: grid;
-    gap: 2rem;
-    width: 2rem;
-    margin: 20px 10px 10px 10px;
+form {
+  display: grid;
+  gap: 2rem;
+  width: 2rem;
+  margin: 20px 10px 10px 10px;
+  color: #101278;
 }
 
-textarea{
-    resize: none;
+textarea {
+  resize: none;
 }
 
 .form_felt {
-    display: grid;
-    gap: 3px;
+  display: grid;
+  gap: 3px;
 }
 
+button {
+  padding: 5px 20px 5px 20px;
+  border-color: #101278;
+  border-radius: 20px;
+}
 
+/*-----------grid-------------*/
 @media (min-width: 800px) {
-.grid_2-1 {
+  .grid_2-1 {
     display: grid;
-    grid-template-columns: 2fr 1fr; 
-}
+    grid-template-columns: 2fr 1fr;
+  }
 
-.grid_1-1-1 {
+  .grid_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
+  }
 }
