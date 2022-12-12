@@ -90,3 +90,7 @@ video {
   grid-template-rows: 1fr 0.5fr;
   gap: 5px;
 }
+
+.img_container:hover > .img_zoom {
+  transform: scale(1.5);
+}
