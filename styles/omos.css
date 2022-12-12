@@ -48,8 +48,8 @@ video {
 }
 
 .video-player-button {
-  background: #f97e72;
-  color: #000;
+  background: #101278;
+  color: #e6e6e6;
   border: none;
   font-size: 1.25rem;
   font-weight: 700;
@@ -65,5 +65,6 @@ video {
 }
 
 .playing .video-player-button {
-  background: violet;
+  background: #e6e6e6;
+  color: #101278;
 }
