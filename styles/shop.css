@@ -38,11 +38,11 @@ img {
 }
 
 .shop1 {
-  background-image: url("../grafik/playstation.svg");
+  background-image: url("../grafik/nintendo.svg");
   background-size: cover;
 }
 .shop2 {
-  background-image: url("../grafik/nintendo.svg");
+  background-image: url("../grafik/playstation.svg");
   background-size: cover;
 }
 .shop3 {
@@ -114,6 +114,6 @@ a {
   text-align: center;
 }
 
-a:hover {
-  color: red;
+.shop:hover {
+  box-shadow: 0px 0px 43px -3px rgba(41, 159, 255, 1);
 }
