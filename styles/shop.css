@@ -42,6 +42,9 @@ img {
   background-image: url("../grafik_shop/nintendogame.webp");
 }
 
+.shopbody {
+  background-image: url("../grafik_shop/shop_bg.webp");
+}
 .title {
   color: black;
   font-size: 2.1rem;
@@ -82,6 +85,7 @@ img {
   font-family: joystix;
   text-align: center;
   padding-top: 243px;
+  background-color: #e6e6e6;
 }
 
 .shoptxt {
@@ -157,5 +161,5 @@ a {
 }
 
 .shop:hover {
-  box-shadow: 0px 0px 43px -3px rgba(41, 159, 255, 1);
+  box-shadow: -15px -15px 0px 0px rgb(0, 0, 0);
 }
