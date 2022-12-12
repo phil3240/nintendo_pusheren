@@ -9,7 +9,7 @@ p {
 
 h1 {
     margin-left: 20px;
-    font-family: Joystix;
+    font-family: joystix;
     font-size: 2rem;
 }
 
@@ -20,6 +20,10 @@ h2 {
 
 ul li {
     list-style-type: none;
+}
+
+main ul li {
+    margin: 20px 10px 10px 20px;
 }
 
 .info {
