@@ -92,5 +92,5 @@ video {
 }
 
 .img_container:hover > .img_zoom {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
