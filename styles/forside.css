@@ -17,7 +17,8 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
 
   gap: 66px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
+  margin-top: 50px;
 }
 .grid_1-1 {
   display: grid;
@@ -35,20 +36,51 @@ img {
 main {
   max-width: 1000px;
   margin-inline: auto;
-  font-family: "joystix", monospace;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 90px;
   margin-bottom: 20px;
+  font-family: "joystix", monospace;
 }
 h2 {
   margin-bottom: 20px;
+  font-family: "joystix", monospace;
+  font-size: 15px;
 }
 
 .press_start {
   width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 p {
   margin-bottom: 100px;
+  font-family: prompt;
+}
+
+.nintendo {
+  position: absolute;
+  top: 83%;
+  left: 15%;
+}
+.pusheren {
+  position: absolute;
+  top: 96%;
+  left: 19.7%;
+}
+
+.nintendokonsol :hover {
+  box-shadow: 2px 0px 30px -3px rgb(0, 51, 255);
+  border-radius: 20px;
+}
+.xbox :hover {
+  box-shadow: 2px 0px 30px -3px rgb(0, 51, 255);
+  border-radius: 20px;
+}
+
+.playstation :hover {
+  box-shadow: 2px 0px 30px -3px rgb(0, 51, 255);
+  border-radius: 20px;
 }
