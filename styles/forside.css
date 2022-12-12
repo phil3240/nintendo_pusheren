@@ -65,10 +65,19 @@ p {
   top: 83%;
   left: 15%;
 }
+.nintendo :hover,
+.pusheren :hover {
+  color: rgb(114, 158, 234);
+}
 .pusheren {
   position: absolute;
   top: 96%;
   left: 19.7%;
+}
+.velkommen {
+  position: absolute;
+  top: 78%;
+  left: 15%;
 }
 
 .nintendokonsol :hover {
