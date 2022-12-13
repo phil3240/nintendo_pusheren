@@ -80,6 +80,7 @@ video {
 .playing .video-player-button {
   background: #e6e6e6;
   color: #101278;
+  opacity: 0.3;
 }
 
 /******************* display ***************/
