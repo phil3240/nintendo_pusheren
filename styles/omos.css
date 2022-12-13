@@ -74,6 +74,7 @@ video {
   margin-left: auto;
   margin-right: auto;
   place-items: center;
+  z-index: 10;
 }
 
 .playing .video-player-button {
@@ -92,4 +93,14 @@ video {
 
 .img_container:hover > .img_zoom {
   transform: scale(1.1);
+}
+
+.video-player {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.video-player video,
+.video-player button {
+  grid-area: 1/1;
 }
