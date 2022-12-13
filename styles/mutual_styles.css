@@ -97,8 +97,8 @@ a:hover {
   src: url("../font/joystix_monospace-webfont.woff2") format("woff2");
 }
 
-@media (max-width: 700px) {
-  header {
-    display: none;
-  }
+nav {
+  --less-than: 700;
+  --burger-lines: #000000;
+  --burger-border: #000000;
 }
