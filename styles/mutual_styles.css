@@ -21,17 +21,11 @@ main {
   margin-inline: auto;
 }
 /*************** Grid ***************/
-
 .footer_flex {
-  display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-between;
-  gap: 20px;
+  display: grid;
+  gap: 60px;
+  margin-bottom: 20px;
 }
-
 /*************** Style ***************/
 
 /*************** Footer ***************/
@@ -101,4 +95,18 @@ nav {
   --less-than: 700;
   --burger-lines: #000000;
   --burger-border: #000000;
+}
+
+/*************** media query ***************/
+
+@media (min-width: 700px) {
+  .footer_flex {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    gap: 20px;
+  }
 }
