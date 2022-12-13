@@ -27,6 +27,8 @@ main ul li {
   padding: 10px;
   margin: 20px 10px 10px 10px;
   border: solid #101278;
+  background-color: #101278;
+  color: white;
   border-radius: 20px;
   text-align: center;
 }
