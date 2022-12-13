@@ -82,15 +82,15 @@ img {
 }
 
 .shop {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border: solid;
   border-radius: 15%;
   border-color: black;
   font-size: 1.3rem;
   font-family: joystix;
   text-align: center;
-  padding-top: 243px;
+  padding-top: 186px;
   background-color: #e6e6e6;
 }
 
