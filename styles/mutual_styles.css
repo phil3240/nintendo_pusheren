@@ -16,6 +16,10 @@ body {
   background-color: #e6e6e6;
   font-family: Prompt, monospace;
 }
+main {
+  max-width: 1000px;
+  margin-inline: auto;
+}
 /*************** Grid ***************/
 
 .footer_flex {
