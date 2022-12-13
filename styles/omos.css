@@ -93,3 +93,9 @@ video {
 .img_container:hover > .img_zoom {
   transform: scale(1.1);
 }
+
+@media (max-width: 400px) {
+  .h1 {
+    font-weight: 40px;
+  }
+}
