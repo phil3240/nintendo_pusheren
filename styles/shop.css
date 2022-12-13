@@ -161,7 +161,21 @@ a {
 }
 
 .shop:hover {
-  box-shadow: -15px -15px 0px 0px rgb(0, 0, 0);
+  box-shadow: -15px -15px 0px 0px rgb(16, 18, 120);
+  border-color: rgb(16, 18, 120);
+  animation: float 1.2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(5px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
 
 /*************** media query ***************/
