@@ -13,39 +13,31 @@ img {
 /*************** Grid ***************/
 
 .grid_1_1_1_1 {
-  gap: 70px 60px;
+  display: grid;
+  gap: 50px 30px;
+  margin-bottom: 40px;
 }
 
-@media (min-width: 1100px) {
-  .grid_1_1_1_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
-    margin-bottom: 80px;
-  }
-
-  .grid_1_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 980px;
-    margin: 0 auto 40px auto;
-  }
+.grid_1_1 {
+  display: grid;
+  margin-bottom: 40px;
+  margin: 0 20px 30px 20px;
 }
 
 /*************** Style ***************/
 .item {
-  width: 400px;
-  height: 400px;
-  margin: 0 40px 30px 50px;
-  box-shadow: -30px 30px 0px 0px rgb(77, 77, 91);
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px auto;
   border-radius: 10px;
 }
 .item1 {
   background-image: url("../grafik_shop/playstationgame.webp");
+  background-size: cover;
 }
 .item2 {
   background-image: url("../grafik_shop/nintendogame.webp");
+  background-size: cover;
 }
 
 .shopbody {
@@ -72,7 +64,7 @@ img {
 
 .paalager {
   color: #0070ff;
-  margin-top: 85px;
+  margin-top: 10px;
   font-weight: bolder;
 }
 
@@ -87,11 +79,13 @@ img {
   border: solid;
   border-radius: 15%;
   border-color: black;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: joystix;
   text-align: center;
-  padding-top: 186px;
+  padding-top: 190px;
   background-color: #e6e6e6;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .shoptxt {
@@ -168,4 +162,38 @@ a {
 
 .shop:hover {
   box-shadow: -15px -15px 0px 0px rgb(0, 0, 0);
+}
+
+/*************** media query ***************/
+
+@media (min-width: 700px) {
+  .grid_1_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    margin-bottom: 80px;
+  }
+
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 980px;
+    margin: 0 auto 40px auto;
+  }
+  .item {
+    width: 400px;
+    height: 400px;
+    margin: 0 40px 30px 50px;
+    box-shadow: -30px 30px 0px 0px rgb(77, 77, 91);
+    border-radius: 10px;
+  }
+
+  .paalager {
+    margin-top: 85px;
+  }
+
+  .shop {
+    font-size: 1.3rem;
+  }
 }
