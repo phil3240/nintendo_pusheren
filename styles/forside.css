@@ -29,10 +29,6 @@ img {
     margin-bottom: 20px;
   }
 
-  #overskrift :hover {
-    color: rgb(114, 158, 234);
-  }
-
   .order {
     order: 1;
   }
@@ -74,6 +70,7 @@ img {
     50% {
       /*transform: translatey(-20px);*/
       color: white;
+      text-shadow: 0 0 32px rgb(0, 9, 187);
     }
     100% {
       transform: translatey(0px);
