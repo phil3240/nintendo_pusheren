@@ -18,19 +18,16 @@ h2 {
   font-size: 1.5rem;
 }
 
-ul li {
-  list-style-type: none;
-}
-
 main ul li {
   margin: 20px 10px 10px 20px;
+  list-style-type: none;
 }
 
 .info {
   padding: 10px;
   margin: 20px 10px 10px 10px;
   border: solid #101278;
-  border-radius: 25px;
+  border-radius: 20px;
   text-align: center;
 }
 
