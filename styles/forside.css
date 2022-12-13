@@ -28,6 +28,25 @@ img {
     gap: 66px;
     margin-bottom: 20px;
   }
+  .nintendo {
+    position: absolute;
+    top: 83%;
+    left: 15%;
+  }
+  .nintendo :hover,
+  .pusheren :hover {
+    color: rgb(114, 158, 234);
+  }
+  .pusheren {
+    position: absolute;
+    top: 96%;
+    left: 19.7%;
+  }
+  .velkommen {
+    position: absolute;
+    top: 78%;
+    left: 15%;
+  }
 }
 
 @font-face {
@@ -62,39 +81,73 @@ p {
   font-family: prompt;
 }
 
-.nintendo {
-  position: absolute;
-  top: 83%;
-  left: 15%;
-}
-.nintendo :hover,
-.pusheren :hover {
-  color: rgb(114, 158, 234);
-}
-.pusheren {
-  position: absolute;
-  top: 96%;
-  left: 19.7%;
-}
-.velkommen {
-  position: absolute;
-  top: 78%;
-  left: 15%;
-}
-
-.nintendokonsol :hover {
-  box-shadow: 2px 0px 30px -3px rgb(0, 51, 255);
-  border-radius: 20px;
-}
-.xbox :hover {
-  box-shadow: 2px 0px 30px -3px rgb(0, 51, 255);
-  border-radius: 20px;
-}
-
-.playstation :hover {
-  box-shadow: 2px 0px 30px -3px rgb(0, 51, 255);
-  border-radius: 20px;
-}
 .mario {
   width: 100px;
+}
+
+body p {
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+  mix-blend-mode: multiply;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: brown;
+  background-color: beige;
+  padding: 50px;
+  border-radius: 11px;
+  position: relative;
+  box-shadow: 20px 20px blue;
+  font-family: promt;
+}
+body p:after {
+  transform: translatey(0px);
+  animation: float2 5s ease-in-out infinite;
+  content: ".";
+  font-weight: bold;
+  text-shadow: 22px 22px blue;
+  text-align: left;
+  font-size: 55px;
+  width: 55px;
+  height: 11px;
+  line-height: 30px;
+  border-radius: 11px;
+  background-color: beige;
+  position: absolute;
+  display: block;
+  bottom: -30px;
+  left: 0;
+  box-shadow: 22px 22px blue;
+  z-index: -2;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    line-height: 30px;
+    transform: translatey(0px);
+  }
+  55% {
+    transform: translatey(-20px);
+  }
+  60% {
+    line-height: 10px;
+  }
+  100% {
+    line-height: 30px;
+    transform: translatey(0px);
+  }
 }
