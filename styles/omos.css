@@ -31,8 +31,12 @@ video {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 70px;
   width: 50%;
+}
+
+figure {
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
 
 h1 {
