@@ -69,7 +69,7 @@ img {
     }
     50% {
       /*transform: translatey(-20px);*/
-      color: white;
+      color: #e6e6e6;
       text-shadow: 0 0 32px rgb(0, 9, 187);
     }
     100% {
