@@ -12,6 +12,9 @@ img {
 }
 
 /*************** Grid ***************/
+main {
+  margin: 20px;
+}
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -21,6 +24,10 @@ img {
   margin-top: 50px;
 }
 @media (min-width: 800px) {
+  main {
+    max-width: 1000px;
+    margin-inline: auto;
+  }
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -81,11 +88,6 @@ img {
 @font-face {
   font-family: "joystix";
   src: url("font/joystix_monospace-webfont.woff") format("woff");
-}
-
-main {
-  max-width: 1000px;
-  margin-inline: auto;
 }
 
 h1 {
