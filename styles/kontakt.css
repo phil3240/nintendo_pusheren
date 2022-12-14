@@ -1,6 +1,8 @@
 .mario {
   width: 30%;
-  margin: 50px;
+  margin: 70px 0px;
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
 }
 
 p {
@@ -14,8 +16,9 @@ h1 {
 }
 
 h2 {
-  margin: 30px 0px 30px 20px;
+  margin: 30px 0px 70px 20px;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 main ul li {
@@ -23,14 +26,85 @@ main ul li {
   list-style-type: none;
 }
 
-.info {
-  padding: 10px;
-  margin: 20px 10px 10px 10px;
-  border: solid #101278;
-  background-color: #101278;
-  color: white;
-  border-radius: 20px;
+.kontakt {
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+  mix-blend-mode: multiply;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  padding: 10px 0px;
+  margin-top: 20px;
+  border-radius: 11px;
+  position: relative;
+  box-shadow: 10px 20px rgb(0, 0, 0);
+}
+.kontakt:after {
+  transform: translatey(0px);
+  animation: float2 5s ease-in-out infinite;
+  content: ".";
+  font-weight: bold;
+  text-shadow: 22px 22px rgb(0, 0, 0);
+  text-align: left;
+  font-size: 55px;
+  width: 55px;
+  height: 11px;
+  line-height: 30px;
+  border-radius: 11px;
+  border: 2px solid black;
+  background-color: #e6e6e6;
+  position: absolute;
+  display: block;
+  bottom: -30px;
+  left: 0;
+  box-shadow: 22px 22px rgb(0, 0, 0);
+  z-index: -2;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    line-height: 30px;
+    transform: translatey(0px);
+  }
+  55% {
+    transform: translatey(-20px);
+  }
+  60% {
+    line-height: 10px;
+  }
+  100% {
+    line-height: 30px;
+    transform: translatey(0px);
+  }
+}
+
+.kontakt2 {
+  mix-blend-mode: multiply;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  padding: 10px 0px;
+  margin-top: 60px;
+  border-radius: 11px;
+  position: relative;
+  box-shadow: 10px 20px rgb(0, 0, 0);
 }
 
 /*---------- Formular --------- */
@@ -38,13 +112,17 @@ form {
   display: grid;
   gap: 2rem;
   width: 2rem;
-  margin: 20px 10px 10px 10px;
+  margin: 20px 10px 10px 20px;
   color: #101278;
 }
 
 textarea {
   resize: none;
   font-family: "Prompt", sans-serif;
+  border: 2px solid #101278;
+  border-radius: 11px;
+  margin-bottom: -15px;
+  box-shadow: 5px 10px #101278;
 }
 
 .form_felt {
@@ -53,13 +131,22 @@ textarea {
 }
 
 button {
-  padding: 5px 20px 5px 20px;
-  border-color: #101278;
-  border-radius: 20px;
+  border: 2px solid #101278;
+  border-radius: 11px;
+  padding: 5px 10px;
+  font-family: "Prompt", sans-serif;
+}
+
+input {
+  border: 2px solid #101278;
+  border-radius: 11px;
+  box-shadow: 5px 8px #101278;
+  padding: 10px 0px;
+  font-family: "Prompt", sans-serif;
 }
 
 /*-----------grid-------------*/
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .grid_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
