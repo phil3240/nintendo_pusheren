@@ -15,6 +15,12 @@ img {
 main {
   margin: 20px;
 }
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-family: "joystix", monospace;
+}
+
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -27,6 +33,15 @@ main {
   main {
     max-width: 1000px;
     margin-inline: auto;
+  }
+  .figur {
+    width: 450px;
+    margin-bottom: 80px;
+  }
+  h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    font-family: "joystix", monospace;
   }
   .grid_1-1 {
     display: grid;
@@ -90,12 +105,6 @@ main {
   src: url("font/joystix_monospace-webfont.woff") format("woff");
 }
 
-h1 {
-  font-size: 90px;
-  margin-bottom: 20px;
-  font-family: "joystix", monospace;
-}
-
 h2 {
   margin-bottom: 20px;
   font-family: "joystix", monospace;
@@ -107,10 +116,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
-.figur {
-  width: 450px;
-  margin-bottom: 80px;
-}
+
 p {
   margin-bottom: 20px;
   font-family: prompt;
